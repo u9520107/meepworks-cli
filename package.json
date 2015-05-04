@@ -1,0 +1,33 @@
+{
+  "name": "meepworks-cli",
+  "version": "0.1.4",
+  "description": "cli tool for creating new meepworks based projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "meepworks": "dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u9520107/meepworks-cli.git"
+  },
+  "author": "Jack Tzu-Chieh Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/u9520107/meepworks-cli/issues"
+  },
+  "homepage": "https://github.com/u9520107/meepworks-cli#readme",
+  "dependencies": {
+    "babel-runtime": "5.1.13",
+    "chalk": "^1.0.0",
+    "co": "^4.5.2",
+    "greasebox": "^0.11.4",
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp-babel": "^5.1.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sourcemaps": "^1.5.2"
+  }
+}
